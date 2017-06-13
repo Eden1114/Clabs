@@ -1,0 +1,2019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>“Delaytime”的局部声明遮蔽了此前位于“23”行(“c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\extern.h”中)的声明。</DESCRIPTION>
+    <FUNCTION>SystemInit</FUNCTION>
+    <DECORATED>?SystemInit@@YAHXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>extern.h</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>44</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>SystemInit</FUNCTION>
+    <DECORATED>?SystemInit@@YAHXZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>191</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>SilenceSimulate</FUNCTION>
+    <DECORATED>?SilenceSimulate@@YAXXZ</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>203</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>SilenceSimulate</FUNCTION>
+    <DECORATED>?SilenceSimulate@@YAXXZ</DECORATED>
+    <FUNCLINE>182</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>272</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>取消对 NULL 指针“response_list”的引用。</DESCRIPTION>
+    <FUNCTION>InitSimulation</FUNCTION>
+    <DECORATED>?InitSimulation@@YAXXZ</DECORATED>
+    <FUNCLINE>248</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>255</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>256</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“response_list”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“response_list==0”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已取消对“response_list”的引用，但可能仍为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>295</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>使用未初始化的内存“*elevator-&gt;serve_list”。</DESCRIPTION>
+    <FUNCTION>InitElevator</FUNCTION>
+    <DECORATED>?InitElevator@@YAXPAUElevatorstate@@@Z</DECORATED>
+    <FUNCLINE>288</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>290</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>301</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>303</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>未初始化“*elevator-&gt;serve_list”</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>继续此循环(假定“elevator-&gt;serve_list!=0”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“p-&gt;next_node==0”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已使用“*elevator-&gt;serve_list”，但可能尚未将其初始化</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>320</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>LoadUserCallArray</FUNCTION>
+    <DECORATED>?LoadUserCallArray@@YAHPAU_iobuf@@@Z</DECORATED>
+    <FUNCLINE>317</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>331</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>从“usercall_list”中读取的数据无效: 可读大小为“usercall_list_len*sizeof(USERCALL)”个字节，但可能读取了“32”个字节。</DESCRIPTION>
+    <FUNCTION>LoadUserCallArray</FUNCTION>
+    <DECORATED>?LoadUserCallArray@@YAHPAU_iobuf@@@Z</DECORATED>
+    <FUNCLINE>317</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>319</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“usercall_list”是一个 0 字节数组</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>325</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>333</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>337</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“item_num”可能等于 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“item_num”是“fscanf”中的输出(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:1193 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“&lt;分支条件&gt;”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>从“usercall_list”中读取无效(位于其可读范围之外)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>331</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>取消对 NULL 指针“usercall_list”的引用。</DESCRIPTION>
+    <FUNCTION>LoadUserCallArray</FUNCTION>
+    <DECORATED>?LoadUserCallArray@@YAHPAU_iobuf@@@Z</DECORATED>
+    <FUNCLINE>317</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>319</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“usercall_list”可能为 NULL (进入此分支)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>325</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此循环(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已取消对“usercall_list”的引用，但可能仍为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>336</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>写入到“usercall_list”时缓冲区溢出: 可写大小为“usercall_list_len*sizeof(USERCALL)”个字节，但可能写入了“32”个字节。</DESCRIPTION>
+    <FUNCTION>LoadUserCallArray</FUNCTION>
+    <DECORATED>?LoadUserCallArray@@YAHPAU_iobuf@@@Z</DECORATED>
+    <FUNCLINE>317</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>319</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>320</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>321</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“usercall_list”是一个 0 字节数组</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>323</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>325</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“&lt;分支条件&gt;”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>333</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>337</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“item_num”可能等于 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“item_num”是“fscanf”中的输出(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:1193 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>331</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>继续此循环(假定“&lt;分支条件&gt;”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>333</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>336</LINE>
+        <COLUMN>37</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>写入到“usercall_list”无效(位于其可写范围之外)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>463</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6282</DEFECTCODE>
+    <DESCRIPTION>运算符不正确: 在 Boolean 上下文中执行了常量赋值。应考虑改用“==”。</DESCRIPTION>
+    <FUNCTION>GetNextTimeStatus</FUNCTION>
+    <DECORATED>?GetNextTimeStatus@@YAXPAUElevatorstate@@@Z</DECORATED>
+    <FUNCLINE>362</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>400</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>取消对 NULL 指针“p”的引用。</DESCRIPTION>
+    <FUNCTION>GetNextTimeStatus</FUNCTION>
+    <DECORATED>?GetNextTimeStatus@@YAXPAUElevatorstate@@@Z</DECORATED>
+    <FUNCLINE>362</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>394</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>395</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>397</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>399</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“p”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>400</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已取消对“p”的引用，但可能仍为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>402</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>取消对 NULL 指针“response_list-&gt;tail”的引用。查看第 400 行以找出可能会发生此情况的前一位置</DESCRIPTION>
+    <FUNCTION>GetNextTimeStatus</FUNCTION>
+    <DECORATED>?GetNextTimeStatus@@YAXPAUElevatorstate@@@Z</DECORATED>
+    <FUNCLINE>362</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>394</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>395</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>397</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>399</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>400</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>401</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>402</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>403</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“response_list-&gt;tail”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>404</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>405</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>406</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>395</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>继续此循环(假定“((i+1))&lt;usercall_list_len”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>397</LINE>
+        <COLUMN>37</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“&lt;分支条件&gt;”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>399</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>400</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>401</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>402</LINE>
+        <COLUMN>34</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已取消对“response_list-&gt;tail”的引用，但可能仍为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>426</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>取消对 NULL 指针“elevator-&gt;serve_list”的引用。</DESCRIPTION>
+    <FUNCTION>GetNextTimeStatus</FUNCTION>
+    <DECORATED>?GetNextTimeStatus@@YAXPAUElevatorstate@@@Z</DECORATED>
+    <FUNCLINE>362</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>364</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>394</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>395</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>413</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>414</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>416</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>423</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“elevator-&gt;serve_list”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>424</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此分支(假定“elevator-&gt;serve_list==0”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>425</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>426</LINE>
+        <COLUMN>36</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已取消对“elevator-&gt;serve_list”的引用，但可能仍为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>501</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>“m”的局部声明遮蔽了此前位于“3”行(“c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\extern.h”中)的声明。</DESCRIPTION>
+    <FUNCTION>FindUserCallCanServe</FUNCTION>
+    <DECORATED>?FindUserCallCanServe@@YAXPAUElevatorstate@@D@Z</DECORATED>
+    <FUNCLINE>492</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>extern.h</FILENAME>
+        <LINE>3</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>658</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>“m”的局部声明遮蔽了此前位于“3”行(“c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\extern.h”中)的声明。</DESCRIPTION>
+    <FUNCTION>GetElevatorDirection</FUNCTION>
+    <DECORATED>?GetElevatorDirection@@YADPAUElevatorstate@@@Z</DECORATED>
+    <FUNCLINE>648</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>extern.h</FILENAME>
+        <LINE>3</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>706</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6244</DEFECTCODE>
+    <DESCRIPTION>“m”的局部声明遮蔽了此前位于“3”行(“c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\extern.h”中)的声明。</DESCRIPTION>
+    <FUNCTION>SetElevatorState</FUNCTION>
+    <DECORATED>?SetElevatorState@@YAXPAUElevatorstate@@@Z</DECORATED>
+    <FUNCLINE>704</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>extern.h</FILENAME>
+        <LINE>3</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>984</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>HistorySimlate</FUNCTION>
+    <DECORATED>?HistorySimlate@@YAXXZ</DECORATED>
+    <FUNCLINE>969</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>999</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>HistorySimlate</FUNCTION>
+    <DECORATED>?HistorySimlate@@YAXXZ</DECORATED>
+    <FUNCLINE>969</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>1006</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>HistorySimlate</FUNCTION>
+    <DECORATED>?HistorySimlate@@YAXXZ</DECORATED>
+    <FUNCLINE>969</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>1016</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>HistorySimlate</FUNCTION>
+    <DECORATED>?HistorySimlate@@YAXXZ</DECORATED>
+    <FUNCLINE>969</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>1021</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>HistorySimlate</FUNCTION>
+    <DECORATED>?HistorySimlate@@YAXXZ</DECORATED>
+    <FUNCLINE>969</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>1029</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>HistorySimlate</FUNCTION>
+    <DECORATED>?HistorySimlate@@YAXXZ</DECORATED>
+    <FUNCLINE>969</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>1051</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “fscanf”。</DESCRIPTION>
+    <FUNCTION>HistorySimlate</FUNCTION>
+    <DECORATED>?HistorySimlate@@YAXXZ</DECORATED>
+    <FUNCLINE>969</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>1031</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>可能没有为字符串“read1”添加字符串零终止符。</DESCRIPTION>
+    <FUNCTION>HistorySimlate</FUNCTION>
+    <DECORATED>?HistorySimlate@@YAXXZ</DECORATED>
+    <FUNCLINE>969</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>971</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>972</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>972</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>974</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>975</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>976</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>977</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>978</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>982</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>983</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>984</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>985</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>986</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>992</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>993</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>994</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>995</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>999</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1000</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1001</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1003</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1004</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1015</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1016</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1020</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1021</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1022</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1024</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>此表达式不能为“read1”添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1025</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1027</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“param_num&lt;param_len”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1029</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“read1”是“fscanf”中的输出(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:1193 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1031</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“read1”是对“strcmp”的输入(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h:95 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1031</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“read1”必须由“strcmp”上的 SAL 批注添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>1038</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>可能没有为字符串“read2”添加字符串零终止符。</DESCRIPTION>
+    <FUNCTION>HistorySimlate</FUNCTION>
+    <DECORATED>?HistorySimlate@@YAXXZ</DECORATED>
+    <FUNCLINE>969</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>971</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>972</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>972</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>974</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>975</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>976</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>977</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>978</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>982</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>983</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>984</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>985</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>986</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>992</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>993</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>994</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>995</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>999</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1000</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1001</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1003</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1004</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1015</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1016</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1020</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1021</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1022</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1024</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1025</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>此表达式不能为“read2”添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1027</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“param_num&lt;param_len”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1029</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“read2”是“fscanf”中的输出(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:1193 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1031</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1035</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1038</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“read2”是对“atoi”的输入(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h:442 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1038</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“read2”必须由“atoi”上的 SAL 批注添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>994</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>可能没有为字符串“HistorySimlateFileName”添加字符串零终止符。</DESCRIPTION>
+    <FUNCTION>HistorySimlate</FUNCTION>
+    <DECORATED>?HistorySimlate@@YAXXZ</DECORATED>
+    <FUNCLINE>969</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>971</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>972</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>972</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>974</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>975</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>976</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>977</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>978</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>982</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>983</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>此表达式不能为“HistorySimlateFileName”添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>984</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“HistorySimlateFileName”是“scanf”中的输出(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:1270 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>985</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>986</LINE>
+        <COLUMN>41</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>992</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>993</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>994</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“HistorySimlateFileName”是对“strcpy”的输入(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h:119 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>994</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“HistorySimlateFileName”必须由“strcpy”上的 SAL 批注添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+      <FILENAME>elevatorsimulation.cpp</FILENAME>
+      <LINE>1006</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>从“usercall_list”中读取的数据无效: 可读大小为“usercall_list_len*sizeof(USERCALL)”个字节，但可能读取了“32”个字节。</DESCRIPTION>
+    <FUNCTION>HistorySimlate</FUNCTION>
+    <DECORATED>?HistorySimlate@@YAXXZ</DECORATED>
+    <FUNCLINE>969</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>971</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>972</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>972</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>974</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>975</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>976</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>977</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>978</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>982</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>983</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>984</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>985</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>986</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>992</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>993</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>994</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>995</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>999</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1000</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“usercall_list”是一个 0 字节数组</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1001</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“usercall_list==0”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1003</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1004</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“item_num&lt;usercall_list_len”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1006</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1013</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“item_num”可能等于 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1004</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>继续此循环(假定“item_num&lt;usercall_list_len”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1006</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“item_num”是“fscanf”中的输出(在 c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h:1193 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab7\lab7\</FILEPATH>
+        <FILENAME>elevatorsimulation.cpp</FILENAME>
+        <LINE>1006</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>从“usercall_list”中读取无效(位于其可读范围之外)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

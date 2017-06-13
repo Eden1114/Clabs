@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab666\lab666\</FILEPATH>
+      <FILENAME>codeforlab6.cpp</FILENAME>
+      <LINE>179</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>PrepareBasicInfoOfFiles</FUNCTION>
+    <DECORATED>?PrepareBasicInfoOfFiles@@YAHPAUFilesInfo@@@Z</DECORATED>
+    <FUNCLINE>175</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab666\lab666\</FILEPATH>
+      <FILENAME>codeforlab6.cpp</FILENAME>
+      <LINE>197</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>PrepareBasicInfoOfFiles</FUNCTION>
+    <DECORATED>?PrepareBasicInfoOfFiles@@YAHPAUFilesInfo@@@Z</DECORATED>
+    <FUNCLINE>175</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab666\lab666\</FILEPATH>
+      <FILENAME>codeforlab6.cpp</FILENAME>
+      <LINE>395</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “_getcwd”。</DESCRIPTION>
+    <FUNCTION>TestCountFilesInfo</FUNCTION>
+    <DECORATED>?TestCountFilesInfo@@YAXXZ</DECORATED>
+    <FUNCLINE>367</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

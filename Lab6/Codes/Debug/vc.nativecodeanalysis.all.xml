@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab666\lab666\</FILEPATH>
+      <FILENAME>codeforlab6.cpp</FILENAME>
+      <LINE>179</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>PrepareBasicInfoOfFiles</FUNCTION>
+    <DECORATED>?PrepareBasicInfoOfFiles@@YAHPAUFilesInfo@@@Z</DECORATED>
+    <FUNCLINE>175</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab666\lab666\</FILEPATH>
+      <FILENAME>codeforlab6.cpp</FILENAME>
+      <LINE>197</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “scanf”。</DESCRIPTION>
+    <FUNCTION>PrepareBasicInfoOfFiles</FUNCTION>
+    <DECORATED>?PrepareBasicInfoOfFiles@@YAHPAUFilesInfo@@@Z</DECORATED>
+    <FUNCLINE>175</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab666\lab666\</FILEPATH>
+      <FILENAME>codeforlab6.cpp</FILENAME>
+      <LINE>395</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>返回值被忽略: “_getcwd”。</DESCRIPTION>
+    <FUNCTION>TestCountFilesInfo</FUNCTION>
+    <DECORATED>?TestCountFilesInfo@@YAXXZ</DECORATED>
+    <FUNCLINE>367</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab666\lab666\</FILEPATH>
+      <FILENAME>labfunctions.cpp</FILENAME>
+      <LINE>84</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>考虑使用“CreateProcess”而不是“WinExec”。原因: Deprecated. See MSDN for details</DESCRIPTION>
+    <FUNCTION>ShowWebPageInIE</FUNCTION>
+    <DECORATED>?ShowWebPageInIE@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\yangyu\documents\visual studio 2015\projects\lab666\lab666\</FILEPATH>
+      <FILENAME>labfunctions.cpp</FILENAME>
+      <LINE>84</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>考虑使用“CreateProcess”而不是“WinExec”。原因: Deprecated. See MSDN for details</DESCRIPTION>
+    <FUNCTION>ShowWebPageInIE</FUNCTION>
+    <DECORATED>?ShowWebPageInIE@@YAXPAD@Z</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
