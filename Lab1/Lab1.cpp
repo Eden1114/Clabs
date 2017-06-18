@@ -52,7 +52,7 @@ int main (int argc,char *argv[])
 		printf("%lf",s / 2);
 		return 0;
 	}
-//如果没有其他参数
+	//如果没有其他参数
 
 	else if (!strcmp(argv[1],"1"))
 	{
